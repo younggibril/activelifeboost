@@ -1,11 +1,33 @@
 ---
 title: "Achieve Your Weight Loss Goals with Running: Expert Tips and Strategies"
 date: 2026-06-12
+draft: false
+
+author: "Gabriel Ochola"
+
+description: "Learn expert tips and proven strategies for using running to achieve your weight loss goals. Discover how to set realistic targets, start running safely, and stay motivated for long-term success."
+
+tags:
+  - weight loss
+  - running
+  - beginner fitness
+  - healthy lifestyle
+  - cardio
+
+categories:
+  - Fitness
 
 cover:
   image: "/images/posts/running-hero.png"
   alt: "Running for Weight Loss"
-  caption: "Expert tips and strategies to achieve your weight loss goals with running."
+  caption: "Expert tips and strategies to achieve your weight loss goals through running."
+  relative: false
+
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowWordCount: true
+ShowBreadCrumbs: true
 ---
 
 Running is one of the most effective ways to lose weight while improving cardiovascular health.
