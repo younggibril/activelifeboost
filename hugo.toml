@@ -1,0 +1,57 @@
+baseURL = 'https://activelifeboost.pages.dev/'
+locale = 'en-us'
+title = 'ActiveLifeBoost'
+theme = "PaperMod"
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+mainSections = ["posts"]
+hideFooter = true
+logo = "/images/logo.png"
+
+[params.label]
+text = "ActiveLifeBoost"
+icon = "/images/alb-icon-64.png"
+iconHeight = 38
+
+disableKinds = ["taxonomy", "term"]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+
+[[menu.main]]
+name = "Resources"
+url = "/resources/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+
+

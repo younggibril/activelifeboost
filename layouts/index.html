@@ -1,0 +1,267 @@
+{{ define "main" }}
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-overlay">
+
+        <h1>Elevate Your Health Journey 💪</h1>
+
+        <p>
+            Welcome to <strong>ActiveLifeBoost</strong>, where fitness,
+            nutrition, wellness, and motivation come together to help you
+            create healthier habits and achieve lasting results.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a class="hero-btn primary" href="/posts/">
+                Read Articles
+            </a>
+
+            <a class="hero-btn secondary" href="/resources/">
+    Explore Resources
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHAT WE DO -->
+
+<section class="features-section">
+
+    <h2>What We Do</h2>
+
+    ...
+
+</section>
+
+    <p class="section-intro">
+Helping you build a healthier lifestyle through fitness,
+nutrition, wellness, and sustainable daily habits.
+</p>
+
+    <div class="features">
+
+        <div class="card">
+
+            <h3>🏋️ Fitness Guidance Made Simple</h3>
+
+            <p>
+                We provide beginner-friendly and advanced workout ideas,
+                practical exercise tips, and sustainable training strategies
+                designed to fit busy lifestyles.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌿 Wellness & Recovery</h3>
+
+            <p>
+                Learn about recovery techniques, stress management,
+                mobility work, quality sleep, and habits that improve
+                long-term health.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🥗 Nutrition Insights</h3>
+
+            <p>
+                Discover balanced nutrition strategies, meal ideas,
+                healthy eating habits, and practical advice that avoids
+                unnecessary complexity.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🧠 Motivation & Mindset</h3>
+
+            <p>
+                Build consistency through realistic goal setting,
+                positive habits, and mental strategies that keep you
+                moving forward.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🚶 Active Lifestyle Tips</h3>
+
+            <p>
+                Explore simple ways to stay active every day through
+                walking, stretching, mobility work, and everyday
+                movement outside the gym.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🎥 Practical Video Content</h3>
+
+            <p>
+                Short educational videos simplify workouts, recovery,
+                nutrition, and wellness concepts for easy learning.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RESOURCES -->
+
+<section class="resources-section">
+
+    <h2>Our Resources</h2>
+
+    ...
+
+</section>
+
+<p class="section-intro">
+Our resource library is designed to support every stage of your health and fitness journey. From practical workout guides and nutrition tips to wellness strategies, motivation boosters, and helpful tools, you'll find actionable resources that make healthy living simpler, more achievable, and sustainable for the long term.
+</p>
+
+    <div class="features">
+
+        <div class="card">
+
+            <h3>📘 Step-by-Step Guides</h3>
+
+            <p>
+                Structured guides designed to help beginners and
+                experienced readers progress confidently.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🎬 Quick Video Lessons</h3>
+
+            <p>
+                Easy-to-follow educational videos covering exercises,
+                recovery methods, and healthy living.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🧾 Healthy Living Articles</h3>
+
+            <p>
+                Read practical content about sleep, stretching,
+                mindfulness, and maintaining a balanced lifestyle.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🍎 Nutrition Tips</h3>
+
+            <p>
+                Understand healthy eating principles and realistic food
+                choices that support long-term wellness.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🔥 Motivation Boosters</h3>
+
+            <p>
+                Stay inspired through actionable advice that helps you
+                remain disciplined and focused.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📊 Tools & Checklists</h3>
+
+            <p>
+                Access planners, trackers, and downloadable resources
+                that make healthy habits easier to maintain.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURED ARTICLE -->
+
+<section class="latest">
+
+    <h2>⭐ Featured Article</h2>
+
+    {{ with first 1 (where site.RegularPages "Section" "posts") }}
+        {{ range . }}
+
+        <div class="card">
+
+            <h3>{{ .Title }}</h3>
+
+            <p>{{ .Summary }}</p>
+
+            <a class="hero-btn primary" href="{{ .RelPermalink }}">
+                Read More
+            </a>
+
+        </div>
+
+        {{ end }}
+    {{ end }}
+
+</section>
+
+<!-- LATEST ARTICLES -->
+
+<section class="latest">
+
+    <h2>Latest Articles</h2>
+
+    <div class="features">
+
+        {{ range first 6 (where site.RegularPages "Section" "posts") }}
+
+        <div class="card">
+
+            <h3>
+
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+
+            </h3>
+
+            <p>{{ .Summary }}</p>
+
+        </div>
+
+        {{ end }}
+
+    </div>
+
+</section>
+
+{{ end }}

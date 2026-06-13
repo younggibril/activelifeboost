@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://activelifeboost.pages.dev/sitemap.xml
