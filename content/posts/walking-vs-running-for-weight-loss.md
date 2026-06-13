@@ -29,6 +29,8 @@ ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true
 ---
+When it comes to losing weight, few exercises are as accessible and effective as walking and running. Both activities help burn calories, improve cardiovascular health, and support long-term fitness goals.
+<!--more-->
 
 When it comes to losing weight, few exercises are as accessible and effective as walking and running. Both activities help burn calories, improve cardiovascular health, and support long-term fitness goals. However, many beginners wonder which option is better for weight loss, especially if they are carrying extra weight, returning to exercise after a long break, or looking for a sustainable routine.
 
