@@ -3,7 +3,7 @@ title: "Achieve Your Weight Loss Goals with Running: Expert Tips and Strategies"
 date: 2026-06-12
 
 cover:
-  image: "/images/posts/running-weight-loss.jpg"
+  image: "/images/posts/running-hero.png"
   alt: "Running for Weight Loss"
   caption: "Expert tips and strategies to achieve your weight loss goals with running."
 ---
