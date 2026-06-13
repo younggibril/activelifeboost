@@ -25,6 +25,8 @@ Stay tuned to get informed!
 ## The Importance of Setting Realistic & Achievable Weight Loss Goals
 Weight loss is an important goal for many people, and running can be a helpful tool to achieve this goal. Then again, setting healthy weight loss goals is crucial to ensure long-term success. However, how you approach your personal weight loss goals can either hinder or help your ultimate success.
 
+![Setting realistic goals for success before running](/images/posts/setting-realistic-goals-for-success.png)
+
 ### Assess Your Body Mass Index (BMI)
 Start by figuring out how much weight you need to lose to feel healthier, more energetic, and happier. To do this, you need to assess your body mass index, which is a measure of body fat based on your weight and height. You can use one of the many online BMI calculators to assess your body mass index. A healthy BMI usually ranges from 18.5 to 25. Needless to say, BMI doesn’t distinguish between muscle weight and body fat weight. This means if you are heavily muscled you may have a high BMI but little body fat.
 
