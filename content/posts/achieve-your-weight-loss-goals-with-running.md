@@ -69,6 +69,7 @@ When looking for running shoes consider the following parts to make sure they fi
 - Outsole
 
 ### Start with a Suitable Running Program
+![Running for Weight Loss](/images/posts/running-for-weight-loss.png)
 In this section, we will explore crucial tips that will help you complete your first 5K, 10K, and so on.
 
 First things first – you have to know the difference between running and walking as far as your heel strike is concerned.
