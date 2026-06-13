@@ -6,6 +6,8 @@ Welcome to ActiveLifeBoost, a health and wellness platform dedicated to helping 
 
 ## Meet the Founder
 
+![Author of ActiveLifeBoost](/images/posts/gabriel-ochola.png)
+
 Hi, I'm **Gabriel Ochola**, the founder of ActiveLifeBoost.
 
 I am a fitness enthusiast, weight-loss advocate, and wellness warrior who believes that healthy living should be accessible, practical, and achievable for everyone. My passion for health and fitness comes from a genuine desire to improve both physical and mental well-being through consistent daily habits rather than quick fixes or unrealistic expectations.
