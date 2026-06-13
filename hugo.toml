@@ -54,4 +54,4 @@ name = "Contact"
 url = "/contact/"
 weight = 5
 
-
+disableKinds = ["taxonomy", "term"]
