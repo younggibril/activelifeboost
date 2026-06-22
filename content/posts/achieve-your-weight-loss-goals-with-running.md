@@ -1,11 +1,11 @@
 ---
-title: "Achieve Your Weight Loss Goals with Running: Expert Tips and Strategies"
+title: "Running for Weight Loss: Expert Tips and Strategies That Work"
 date: 2026-06-12
 draft: false
 
 author: "Gabriel Ochola"
 
-description: "Learn expert tips and proven strategies for using running to achieve your weight loss goals. Discover how to set realistic targets, start running safely, and stay motivated for long-term success."
+description: "Learn how running can help you lose weight, burn calories, and improve fitness. Discover practical running tips, beginner strategies, and common mistakes to avoid."
 
 tags:
   - weight loss
